@@ -1,7 +1,7 @@
 package string;
 
 /**
- * Created by user on 16/3/21.
+ * Created by user:bo cui on 16/3/21.
  */
 public class ReverseString {
     public static void main(String args[]){
