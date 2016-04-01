@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 public class SelectionSort {
 
-    public static void selectionSort(int arr[]){
+    public void selectionSort(int arr[]){
         int len = arr.length;
         for (int i=0;i<len-1;i++){
             int min = i;
