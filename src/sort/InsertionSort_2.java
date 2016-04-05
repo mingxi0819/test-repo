@@ -10,7 +10,7 @@ public class InsertionSort_2 {
         for (int i = 1;i < N ; i++){
             int key = a[i];
             int j = i-1;
-            while(key<a[j] && j>0){
+            while(j>=0 && key<a[j]){
                 int temp = a[j+1];
                 a[j+1] = a[j];
                 a[j] = temp;
@@ -32,8 +32,9 @@ public class InsertionSort_2 {
     public static void main(String args[]){
 
         InsertionSort_2 is = new InsertionSort_2();
-        int[] a = {1,3,2,5,4,6,7};
+        int[] a = {2,1,4,5,8,0,2};
         is.sort(a);
+
 
         System.out.println(is.isSort(a));
     }
