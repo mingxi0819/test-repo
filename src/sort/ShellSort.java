@@ -43,9 +43,6 @@ public class ShellSort {
         System.out.println(Arrays.toString(a));
         ss.sort(a);
         System.out.println(Arrays.toString(a));
-
-
-
     }
 
 }
